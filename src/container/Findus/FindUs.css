@@ -1,0 +1,29 @@
+.find{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.find-info{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.find-info button{
+    max-width: max-content;
+}
+.find-img{
+    display: flex;
+    flex: 1;
+    
+}
+.find-img img{
+    width: 500px;
+}
+@media screen and (max-width: 800px) {
+    .find{
+flex-direction: column;
+    }
+    .find-img img{
+        width: 400px;
+    }
+}

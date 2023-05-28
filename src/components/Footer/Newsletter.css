@@ -1,0 +1,26 @@
+.newsletter{
+    padding: 3rem 6rem;
+    border: 1px solid var(--color-golden);
+    background: black;
+    color: #fff;
+}
+.newsletter-heading{
+    text-align: center;
+}
+.newsletter-heading h1{
+    color: var(--color-golden);
+    font-family: var(--font-base);
+    margin-bottom: 1rem;
+}
+.newsletter-input{
+    margin-top: 3rem;
+    display: flex;
+}
+.newsletter-input input{
+    padding: 1rem 2rem;
+    font-family: var(--font-alt);
+    color: #fff;
+    outline: none;
+    background: black;
+    border: 1px solid var(--color-golden);
+}

@@ -1,0 +1,27 @@
+.menu-item{
+    width: 100%;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.menu-item-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu-item-sub{
+    width: 100%;
+    margin-top: .5rem;
+}
+.menu-item-name{
+    font-size: 1.25rem;
+    width: 70%;
+}
+.menu-item-line{
+    width: 90px;
+    height: 1px;
+    background: var(--color-golden);
+    margin: 0 2rem 0 0;
+}

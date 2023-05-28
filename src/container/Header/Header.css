@@ -1,0 +1,35 @@
+.header{
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-alt);
+    color: var(--color-white);
+    min-height: 100vh;
+}
+.header-info{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+}
+.header-img{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+.header-img img{
+    width: 80%;
+}
+.header-info h1{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    text-transform: uppercase;
+    font-size: 3rem;
+}
